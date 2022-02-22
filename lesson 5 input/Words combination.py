@@ -10,4 +10,4 @@ text = input("Введите слово:")
 a = 1
 while a < 6:
    a = a + 1
-   print(random.sample(text,len(text)))
+   print("".join(random.sample(text,len(text))), end=" ")
