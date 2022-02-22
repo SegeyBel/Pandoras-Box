@@ -8,7 +8,9 @@ import random
 n=random.randint(1, 10)
 while True:
     text = input("Введите число или стоп для выхода: ")
-    if int(text) == n:
+    if text == 'стоп':
+        break
+    elif int(text) == n:
         print("Победа")
         break
     else:
